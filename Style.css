@@ -1,0 +1,367 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header .container h1{
+    color: white;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    
+}
+
+
+nav ul {
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    padding-top: -10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li a:hover{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: orangered;
+    
+    
+}
+
+#hero {
+   height: 450px;
+   background-color: wheat;
+}
+#hero .container a{
+    position: relative;
+    top: 320px;
+    height: 27px;
+    width: 75px;
+    right: 1020px;
+
+    
+}
+#hero .container2 img{
+    position: relative;
+    bottom: 140px;
+    left: 950px;
+    width: 500px;
+    height: 380px;
+    box-shadow: 3 2 10px rgba(243, 2, 2, 0.1);
+}
+
+#hero h2 {
+    /* width: 280px; */
+    padding-top: 50px;
+
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero p {
+    position: relative;
+    width: 300px;
+    top: 160px;
+
+    right: 610px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff6347;
+}
+
+
+#about{
+    height:250px ;
+}
+#classes{
+    height:250px ;
+}
+
+
+
+#membership {
+    background-color:rgb(247, 241, 241);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.membership-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.membership-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.membership-card p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #ff6347;
+}
+ /* css for class section  */
+
+
+#classes {
+    background-color: wheat;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.class-batch {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.class-batch h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.class-batch p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #ff6347;
+}
+ 
+/* css for about section */
+
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(248, 242, 242);
+    padding: 40px 0;
+    text-align: center;
+}
+#about .container{
+    position: relative;
+    width:1000px;
+    height: 250px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#about h2 {
+    position: relative;
+    left: 160px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#about p {
+    position: relative;
+    right: 100px;
+    width: 200px;
+    margin: 0;
+    font-size: 1.0rem;
+    background-color: rgb(247, 241, 241);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Contact section  */
+
+#contact {
+    height: 55vh;
+    background-color:wheat;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    margin: 20px;
+}
+
+.row .contact-left {
+    height: 80%;
+    width: 40%;
+    margin-left: 120px;
+
+}
+
+.row .contact-left h1 {
+    position: relative;
+    top: -15px;
+    left: 30px;
+    color: black;
+
+}
+
+.row .contact-left p {
+    margin: 15px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    display: inline-block;
+    transition: transform .5s;
+}
+
+.social-icons a:hover {
+    color: orange;
+    transform: rotateY('-5px');
+}
+
+.row .contact-right {
+    height: 80%;
+    width: 50%;
+    margin-right: 110px;
+}
+
+.contact-right form {
+    width: 100%;
+
+}
+
+.contact-right form button {
+    position: relative;
+    top: -25px;
+
+}
+
+form input,
+form textarea {
+
+    position: relative;
+    top: -20px;
+    width: 80%;
+    outline: none;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.contact-left h1 {
+    color: black
+}
+.contact-right .btn{
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    padding: 5px;
+ border: none;
+    border-radius: 12px;
+}
+.contact-right .btn:hover{
+    color: white;
+    background-color: grey;
+    font-size: 1.1rem;
+}
+footer{
+    background-color: black;
+}
+footer .container p{
+    color: white;
+    position: relative;
+    left: 400px;
+
+}
+
